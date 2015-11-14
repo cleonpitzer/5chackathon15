@@ -137,4 +137,28 @@ body {
     right: 400px;
     left: 400px;
 }
-
+blog p{
+  font-size: 20px;
+  padding-bottom: 50px;
+}
+.button-group{
+  margin-bottom: 20px;
+}
+.posts {
+list-style: none;
+padding-left: 0;
+width: 100%;
+margin-left: 20px;
+margin-right: 20px;
+}
+.posts li{
+border: 1px solid #d8d8d8;
+padding-top: 10px;
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 10px;
+margin-right: 30px;
+margin-bottom: 20px;
+word-wrap: break-word;
+min-height: 42px;
+}

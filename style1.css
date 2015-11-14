@@ -1,0 +1,100 @@
+body {
+  padding-top: 5px;
+  background-color: rgb(255, 255, 255);
+}
+
+.background-image1 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: -3;
+}
+
+.background-image2 {
+	position: absolute;
+	left: 0px;
+	top: 800px;
+	z-index: -3;
+}
+
+#rectangle-image1 {
+	width: 620px;
+	height: 330px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #a1c93a;
+	opacity: .8;
+	position: absolute;
+	top: 0px;
+	left: 330px;
+	z-index: -1;
+}
+
+#rectangle-image2 {
+	width: 840px;
+	height: 330px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #a1c93a;
+	opacity: .6;
+	position: absolute;
+	top: 0px;
+	left: 220px;
+	z-index: -2;
+}
+
+#rectangle-image3 {
+	width: 1060px;
+	height: 330px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #a1c93a;
+	opacity: .4;
+	position: absolute;
+	top: 0px;
+	left: 110px;
+	z-index: -2;
+}
+
+#rectangle-image4 {
+	width: 1280px;
+	height: 330px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #a1c93a;
+	opacity: .2;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: -2;
+}
+
+#rectangle-image5 {
+	width: 1280px;
+	height: 1600px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgb(72,72,72);
+
+	background-size: cover;
+	background-repeat: none none;
+
+	opacity: 0.6;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: -3;
+}
+
+.dropdown-menu {
+	left: 50%;
+	right: auto;
+	text-align: center;
+	transform: translate(-50%, 0);
+}
+
+
+.backgroundmain {
+	background: url(http://media.npr.org/assets/img/2015/01/07/avocados_wide-e516f064e2a39614339f451173deafb59b4d5be5.jpg?s=1400);
+	background-cover: ;
+}

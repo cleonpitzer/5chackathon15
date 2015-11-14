@@ -11,4 +11,22 @@ $("#result").text("Number of people in this dining hall so far: " + localStorage
 //document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
 $("#result").text("Sorry, your browser does not support web storage...");
 }
+return Number(localStorage[dininghall])
 }
+function trafficTime(dininghall){
+    var x = clickCounter(dininghall)
+
+    $('#traffic').text('approx wait time is: ' + 2 * x  + ' minutes');
+
+}
+$(document).ready(function(){ //waits for the document to load
+
+    $('.btn').click(function(e) {
+        e.preventDefault();
+        var post = $('.status-box').val();
+        console.debug(post);
+        $('<li>').text(post).prependTo('.posts');
+        $('.status-box').val('');
+        
+    });
+});

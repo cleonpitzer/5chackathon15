@@ -1,0 +1,140 @@
+style.css
+
+
+#blue {
+    color: blue;
+}
+
+.red{
+    color:red;
+}
+
+.darkblue{
+    color:#1259bd;
+}
+
+
+
+body {
+  padding: 10px;
+  background-color: #FAFBFC;
+}
+
+.nav a {
+  color: #3a3a3a;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 10px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+  background-image:url('assets/cover.jpg');
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top: 180px;
+  left: 50px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.learn-more {
+  background-color: #f7f7f7;
+
+}
+.learn-more .profile {
+  padding: 50px 50px;
+
+}
+.learn-more h3 {
+  padding-top: 40px;
+  font-family: 'Shift', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.learn-more p {
+  font-size: 16px;
+}
+
+.learn-more a {
+  color: #00b0ff;
+}
+.blog {
+  height: 600px;
+  background-color: white;
+}
+.blog .container{
+  position: relative;
+  top: 80px
+  left: 50px;
+}
+.blog hi{
+  font-size:48 px;
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.blog p{
+  font-size: 20px;
+  padding-bottom: 50px;
+}
+.button-group{
+  margin-bottom: 20px;
+}
+.posts {
+  list-style: none;
+  padding-left: 0;
+  width: 100%;
+}
+.posts li{
+  border: 1px solid #d8d8d8;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  margin-right: 100px;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+  min-height: 42px;
+}
+
+
+.font {
+    font-variant: ;
+    font-size: 35;
+    font-weight: 150;
+}
+
+#bigfont {
+    font-variant: sans-serif;
+    font-size: 50;
+    font-weight: 100;
+}
+
+.open>.dropdown-menu {
+    display: block;
+    position: absolute;
+    right: 400px;
+    left: 400px;
+}
+
